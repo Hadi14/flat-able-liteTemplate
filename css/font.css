@@ -1,0 +1,7 @@
+@font-face {
+    font-family: vazirf;
+    src: url("../fonts/Vazir.ttf");
+  }
+body{
+    font-family:vazirf, sans-serif;
+}  
