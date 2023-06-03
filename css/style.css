@@ -2045,7 +2045,7 @@ label {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 8px 0;
+  padding: 8px 0px;
   opacity: 0.6;
   color: #fff;
   font-weight: 500;
@@ -2241,6 +2241,7 @@ label {
 .cat-sub-menu.visible a {
   opacity: 0.6;
   visibility: visible;
+  padding-right: 30px;
 }
 
 .cat-sub-menu.visible a:hover {
@@ -2422,11 +2423,21 @@ label {
 
 .main-nav .nav-user-wrapper .users-item-dropdown {
   width: 171px;
-  right: 0;
+  right: -130px;
+}
+
+.users-item-dropdown.nav-user-dropdown.dropdown.active::before {
+  content: '';
+  position: absolute;
+  right: 136px;
+  top: -14px;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff transparent;
 }
 
 .main-nav .nav-user-wrapper .users-item-dropdown svg {
-  margin-right: 13px;
+  margin: 0 13px;
 }
 
 .main-nav .nav-user-wrapper .users-item-dropdown a {
@@ -2541,7 +2552,7 @@ label {
 
 .lang-menu {
   top: 40px;
-  right: 0;
+  right: -80px;
   width: 125px;
 }
 
@@ -2649,7 +2660,7 @@ label {
 .stat-cards-icon {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -2658,10 +2669,11 @@ label {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 9px;
+  font-size: 20px;
 }
 
 .stat-cards-icon.primary {
@@ -2686,7 +2698,7 @@ label {
 
 .stat-cards-info__num {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.22;
   color: #171717;
   margin-bottom: 4px;
@@ -4143,6 +4155,7 @@ label {
   }
 }
 
+/************************************************************/
 @media (max-width: 1199.98px) {
   .sidebar {
     position: fixed;
@@ -4169,7 +4182,27 @@ label {
   .sort-bar .select {
     margin-right: 10px;
   }
+
+  /** Aded **/
+  .lang-menu {
+    top: 40px;
+    right: 0;
+    width: 125px;
+  }
+
+  .main-nav .notification-dropdown {
+    right: 0;
+    width: 236px;
+    padding: 10px;
+  }
+
+  .main-nav .nav-user-wrapper .users-item-dropdown {
+    width: 171px;
+    right: 0;
+  }
 }
+
+/************************************************************/
 
 @media (max-width: 991.98px) {
   .sort-bar-start {
