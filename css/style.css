@@ -1475,7 +1475,7 @@ button.disabled:focus {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 50%;
-  right: 0;
+  left: 0;
   top: 13px;
   z-index: 1;
 }
@@ -1694,7 +1694,7 @@ button.disabled:focus {
 .dropdown::before {
   content: '';
   position: absolute;
-  right: 6px;
+  right: 200px;
   top: -10px;
   border-style: solid;
   border-width: 0 15px 15px 15px;
@@ -2334,7 +2334,7 @@ label {
 }
 
 .main-nav .notification-dropdown {
-  right: 0;
+  right: -200px;
   width: 236px;
   padding: 10px;
 }
