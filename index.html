@@ -11,6 +11,7 @@
   <!-- Custom styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+  <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/Custome-style.css">
@@ -319,84 +320,91 @@
         <div class="container">
           <h2 class="main-title">آمار ماه های اخیر ...</h2>
           <div class="row stat-cards">
+
+
+            <!-- **** -->
             <div class="col-md-6 col-xl-3">
               <article class="stat-cards-item">
-                <!-- <div class="stat-cards-icon primary">
-                  <i data-feather="bar-chart-2" aria-hidden="true"></i>
-                </div> -->
-                <i class="fa-solid fa-people-roof stat-cards-icon primary"></i>
-
                 <div class="stat-cards-info">
                   <p class="stat-cards-info__num">تعداد خانوار تحت پوشش ماه قبل</p>
-                  <p class="stat-cards-info__title">43,159</p>
-                  <p class="stat-cards-info__progress">
-                    <span class="stat-cards-info__profit success">
+                  <div class="d-flex  align-items-center">
+                    <i class="fa-solid mx-2 fa-people-roof stat-cards-icon primary"></i>
+                    <p class="stat-cards-info__title">43,159</p>
+                  </div>
+                  <p class="stat-cards-info__progress mt-3">
+                    <span class="stat-cards-info__profit success mx-1">
                       <i data-feather="trending-up" aria-hidden="true"></i>4.07%
                     </span>
-                    Last month
+                    تغییر نسبت به ماه قبل
                   </p>
                 </div>
               </article>
             </div>
+            <!-- ****** -->
             <div class="col-md-6 col-xl-3">
               <article class="stat-cards-item">
-                <div class="stat-cards-icon warning">
-                  <i data-feather="file" aria-hidden="true"></i>
-                </div>
                 <div class="stat-cards-info">
-                  <p class="stat-cards-info__num">1478 286</p>
-                  <p class="stat-cards-info__title">Total visits</p>
-                  <p class="stat-cards-info__progress">
-                    <span class="stat-cards-info__profit success">
-                      <i data-feather="trending-up" aria-hidden="true"></i>0.24%
+                  <p class="stat-cards-info__num">مبلغ معیشت پرداخت شده</p>
+                  <div class="d-flex  align-items-center">
+                    <i class="bi bi-cash-stack mx-2 stat-cards-icon primary"></i>
+                    <p class="stat-cards-info__title">43,159</p>
+                  </div>
+                  <p class="stat-cards-info__progress mt-3">
+                    <span class="stat-cards-info__profit success mx-1">
+                      <i data-feather="trending-up" aria-hidden="true"></i>4.07%
                     </span>
-                    Last month
+                    تغییر نسبت به ماه قبل
                   </p>
                 </div>
               </article>
             </div>
+            <!-- ****** -->
             <div class="col-md-6 col-xl-3">
               <article class="stat-cards-item">
-                <div class="stat-cards-icon purple">
-                  <i data-feather="file" aria-hidden="true"></i>
-                </div>
                 <div class="stat-cards-info">
-                  <p class="stat-cards-info__num">1478 286</p>
-                  <p class="stat-cards-info__title">Total visits</p>
-                  <p class="stat-cards-info__progress">
-                    <span class="stat-cards-info__profit danger">
-                      <i data-feather="trending-down" aria-hidden="true"></i>1.64%
+                  <p class="stat-cards-info__num">تعداد اشتغال ایجاد شده</p>
+                  <div class="d-flex  align-items-center">
+                    <i class="fa-solid fa-user-nurse  mx-2 stat-cards-icon primary"></i>
+                    <p class="stat-cards-info__title">43,159</p>
+                  </div>
+                  <p class="stat-cards-info__progress mt-3">
+                    <span class="stat-cards-info__profit success mx-1">
+                      <i data-feather="trending-up" aria-hidden="true"></i>4.07%
                     </span>
-                    Last month
+                    تغییر نسبت به ماه قبل
                   </p>
                 </div>
               </article>
             </div>
+            <!-- ****** -->
             <div class="col-md-6 col-xl-3">
               <article class="stat-cards-item">
-                <div class="stat-cards-icon success">
-                  <i data-feather="feather" aria-hidden="true"></i>
-                </div>
                 <div class="stat-cards-info">
-                  <p class="stat-cards-info__num">1478 286</p>
-                  <p class="stat-cards-info__title">Total visits</p>
-                  <p class="stat-cards-info__progress">
-                    <span class="stat-cards-info__profit warning">
-                      <i data-feather="trending-up" aria-hidden="true"></i>0.00%
+                  <p class="stat-cards-info__num">مبلغ صدقات جمع آوری شده</p>
+                  <div class="d-flex  align-items-center">
+                    <i class="bi bi-currency-dollar mx-2 stat-cards-icon primary"></i>
+                    <p class="stat-cards-info__title">43,159</p>
+                  </div>
+                  <p class="stat-cards-info__progress mt-3">
+                    <span class="stat-cards-info__profit success mx-1">
+                      <i data-feather="trending-up" aria-hidden="true"></i>4.07%
                     </span>
-                    Last month
+                    تغییر نسبت به ماه قبل
                   </p>
                 </div>
               </article>
             </div>
+            <!-- ****** -->
+
           </div>
+          <!-- ******************** -->
           <div class="row">
             <div class="col-lg-9">
               <div class="chart">
                 <canvas id="myChart" aria-label="Site statistics" role="img"></canvas>
               </div>
               <div class="users-table table-wrapper">
-                <table class="posts-table">
+                <table class="posts-table text-center">
                   <thead>
                     <tr class="users-table-info">
                       <th>
@@ -404,120 +412,40 @@
                           <input type="checkbox" class="check-all">Thumbnail
                         </label>
                       </th>
-                      <th>Title</th>
-                      <th>Author</th>
-                      <th>Status</th>
-                      <th>Date</th>
-                      <th>Action</th>
+                      <th>عنوان</th>
+                      <th>ثبت کننده</th>
+                      <th>وضعیت</th>
+                      <th>تاریخ</th>
+                      <th>عملیات</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody class="">
                     <tr>
                       <td>
                         <label class="users-table__checkbox">
                           <input type="checkbox" class="check">
                           <div class="categories-table-img">
                             <picture>
-                              <source srcset="./img/categories/01.webp" type="image/webp"><img
-                                src="./img/categories/01.jpg" alt="category">
+                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-face-02.png" alt="User Name">
                             </picture>
                           </div>
                         </label>
                       </td>
                       <td>
-                        Starting your traveling blog with Vasco
+                        ثبت فعالیت آمار جمعیتی
                       </td>
                       <td>
                         <div class="pages-table-img">
-                          <picture>
-                            <source srcset="./img/avatar/avatar-face-04.webp" type="image/webp"><img
-                              src="./img/avatar/avatar-face-04.png" alt="User Name">
-                          </picture>
-                          Jenny Wilson
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td>17.04.2021</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/categories/02.webp" type="image/webp"><img
-                                src="./img/categories/02.jpg" alt="category">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        Start a blog to reach your creative peak
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
-                          <picture>
+                          <!-- <picture>
                             <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                              src="./img/avatar/avatar-face-03.png" alt="User Name">
-                          </picture>
-                          Annette Black
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td>23.04.2021</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/categories/03.webp" type="image/webp"><img
-                                src="./img/categories/03.jpg" alt="category">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        Helping a local business reinvent itself
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
-                          <picture>
-                            <source srcset="./img/avatar/avatar-face-02.webp" type="image/webp"><img
                               src="./img/avatar/avatar-face-02.png" alt="User Name">
-                          </picture>
-                          Kathryn Murphy
+                          </picture> -->
+                          هادی هاشمی
                         </div>
                       </td>
-                      <td><span class="badge-active">Active</span></td>
-                      <td>17.04.2021</td>
+                      <td><span class="badge-pending">Pending</span></td>
+                      <td class="digitfont">1402-04-02</td>
                       <td>
                         <span class="p-relative">
                           <button class="dropdown-btn transparent-btn" type="button" title="More info">
@@ -525,9 +453,9 @@
                             <i data-feather="more-horizontal" aria-hidden="true"></i>
                           </button>
                           <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
+                            <li><a class="text-center" href="##">ویرایش</a></li>
+                            <li><a class="text-center" href="##">تایید</a></li>
+                            <li><a class="text-center" href="##">رد</a></li>
                           </ul>
                         </span>
                       </td>
@@ -538,66 +466,26 @@
                           <input type="checkbox" class="check">
                           <div class="categories-table-img">
                             <picture>
-                              <source srcset="./img/categories/04.webp" type="image/webp"><img
-                                src="./img/categories/04.jpg" alt="category">
+                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-face-02.png" alt="User Name">
                             </picture>
                           </div>
                         </label>
                       </td>
                       <td>
-                        Caring is the new marketing
+                        ثبت فعالیت آمار جمعیتی
                       </td>
                       <td>
                         <div class="pages-table-img">
-                          <picture>
-                            <source srcset="./img/avatar/avatar-face-05.webp" type="image/webp"><img
-                              src="./img/avatar/avatar-face-05.png" alt="User Name">
-                          </picture>
-                          Guy Hawkins
-                        </div>
-                      </td>
-                      <td><span class="badge-active">Active</span></td>
-                      <td>17.04.2021</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/categories/01.webp" type="image/webp"><img
-                                src="./img/categories/01.jpg" alt="category">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        How to build a loyal community online and offline
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
-                          <picture>
+                          <!-- <picture>
                             <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                              src="./img/avatar/avatar-face-03.png" alt="User Name">
-                          </picture>
-                          Robert Fox
+                              src="./img/avatar/avatar-face-02.png" alt="User Name">
+                          </picture> -->
+                          هادی هاشمی
                         </div>
                       </td>
-                      <td><span class="badge-active">Active</span></td>
-                      <td>17.04.2021</td>
+                      <td><span class="badge-pending">Pending</span></td>
+                      <td class="digitfont">1402-04-02</td>
                       <td>
                         <span class="p-relative">
                           <button class="dropdown-btn transparent-btn" type="button" title="More info">
@@ -605,9 +493,9 @@
                             <i data-feather="more-horizontal" aria-hidden="true"></i>
                           </button>
                           <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
+                            <li><a class="text-center" href="##">ویرایش</a></li>
+                            <li><a class="text-center" href="##">تایید</a></li>
+                            <li><a class="text-center" href="##">رد</a></li>
                           </ul>
                         </span>
                       </td>
@@ -618,26 +506,26 @@
                           <input type="checkbox" class="check">
                           <div class="categories-table-img">
                             <picture>
-                              <source srcset="./img/categories/03.webp" type="image/webp"><img
-                                src="./img/categories/03.jpg" alt="category">
+                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-face-02.png" alt="User Name">
                             </picture>
                           </div>
                         </label>
                       </td>
                       <td>
-                        How to build a loyal community online and offline
+                        ثبت فعالیت آمار جمعیتی
                       </td>
                       <td>
                         <div class="pages-table-img">
-                          <picture>
+                          <!-- <picture>
                             <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                              src="./img/avatar/avatar-face-03.png" alt="User Name">
-                          </picture>
-                          Robert Fox
+                              src="./img/avatar/avatar-face-02.png" alt="User Name">
+                          </picture> -->
+                          هادی هاشمی
                         </div>
                       </td>
-                      <td><span class="badge-active">Active</span></td>
-                      <td>17.04.2021</td>
+                      <td><span class="badge-pending">Pending</span></td>
+                      <td class="digitfont">1402-04-02</td>
                       <td>
                         <span class="p-relative">
                           <button class="dropdown-btn transparent-btn" type="button" title="More info">
@@ -645,13 +533,98 @@
                             <i data-feather="more-horizontal" aria-hidden="true"></i>
                           </button>
                           <ul class="users-item-dropdown dropdown">
-                            <li><a href="##">Edit</a></li>
-                            <li><a href="##">Quick edit</a></li>
-                            <li><a href="##">Trash</a></li>
+                            <li><a class="text-center" href="##">ویرایش</a></li>
+                            <li><a class="text-center" href="##">تایید</a></li>
+                            <li><a class="text-center" href="##">رد</a></li>
                           </ul>
                         </span>
                       </td>
                     </tr>
+                    <tr>
+                      <td>
+                        <label class="users-table__checkbox">
+                          <input type="checkbox" class="check">
+                          <div class="categories-table-img">
+                            <picture>
+                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-face-02.png" alt="User Name">
+                            </picture>
+                          </div>
+                        </label>
+                      </td>
+                      <td>
+                        ثبت فعالیت آمار جمعیتی
+                      </td>
+                      <td>
+                        <div class="pages-table-img">
+                          <!-- <picture>
+                            <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                              src="./img/avatar/avatar-face-02.png" alt="User Name">
+                          </picture> -->
+                          هادی هاشمی
+                        </div>
+                      </td>
+                      <td><span class="badge-pending">Pending</span></td>
+                      <td class="digitfont">1402-04-02</td>
+                      <td>
+                        <span class="p-relative">
+                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
+                            <div class="sr-only">More info</div>
+                            <i data-feather="more-horizontal" aria-hidden="true"></i>
+                          </button>
+                          <ul class="users-item-dropdown dropdown">
+                            <li><a class="text-center" href="##">ویرایش</a></li>
+                            <li><a class="text-center" href="##">تایید</a></li>
+                            <li><a class="text-center" href="##">رد</a></li>
+                          </ul>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label class="users-table__checkbox">
+                          <input type="checkbox" class="check">
+                          <div class="categories-table-img">
+                            <picture>
+                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                                src="./img/avatar/avatar-face-02.png" alt="User Name">
+                            </picture>
+                          </div>
+                        </label>
+                      </td>
+                      <td>
+                        ثبت فعالیت آمار جمعیتی
+                      </td>
+                      <td>
+                        <div class="pages-table-img">
+                          <!-- <picture>
+                            <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
+                              src="./img/avatar/avatar-face-02.png" alt="User Name">
+                          </picture> -->
+                          هادی هاشمی
+                        </div>
+                      </td>
+                      <td><span class="badge-pending">Pending</span></td>
+                      <td class="digitfont">1402-04-02</td>
+                      <td>
+                        <span class="p-relative">
+                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
+                            <div class="sr-only">More info</div>
+                            <i data-feather="more-horizontal" aria-hidden="true"></i>
+                          </button>
+                          <ul class="users-item-dropdown dropdown">
+                            <li><a class="text-center" href="##">ویرایش</a></li>
+                            <li><a class="text-center" href="##">تایید</a></li>
+                            <li><a class="text-center" href="##">رد</a></li>
+                          </ul>
+                        </span>
+                      </td>
+                    </tr>
+
+
+
+
+
                   </tbody>
                 </table>
               </div>
@@ -777,6 +750,7 @@
   <script src="plugins/feather.min.js"></script>
   <!-- Custom scripts -->
   <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
