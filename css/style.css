@@ -548,6 +548,12 @@ html {
   padding-left: 10px;
 }
 
+#signin-body {
+  background-image: url("../img/categories/cropped-helpsavenature.jpg");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -3208,7 +3214,7 @@ label {
 }
 
 .form-checkbox-label {
-  font-family: Inter;
+  /* font-family: Inter; */
   font-size: 14px;
   line-height: 1.71;
   color: #767676;
