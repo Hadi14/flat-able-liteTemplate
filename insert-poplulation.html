@@ -60,7 +60,7 @@
               </a>
               <ul class="cat-sub-menu">
                 <li>
-                  <a href="posts.html">آمار جمعیتی</a>
+                  <a href="insert-poplulation.html">آمار جمعیتی</a>
                 </li>
                 <li>
                   <a href="new-post.html"> آمار معیشت</a>
@@ -477,227 +477,128 @@
           <!-- ******************** -->
           <div class="row">
             <div class="col-lg-9">
-              <!-- <div class="chart">
-                روند آمارهای حوزه ها از ابتدای سال
-                <canvas id="myChart" aria-label="Site statistics" role="img"></canvas>
-              </div>
-              <div class="users-table table-wrapper">
-                <table class="posts-table text-center">
-                  <caption class="text-primary caption-top mt-5 pb-0 text-center">آمارهای ثبت شده ماه اخیر
-                  </caption>
-                  <thead>
-                    <tr class="users-table-info border border-muted">
-                      <th>
-                        <label class="users-table__checkbox ">
-                          <input type="checkbox" class="check-all ">
-                          <span class="ms-4">عکس پروفایل</span>
-                        </label>
-                      </th>
-                      <th>عنوان</th>
-                      <th>ثبت کننده</th>
-                      <th>وضعیت</th>
-                      <th>تاریخ</th>
-                      <th>عملیات</th>
-                    </tr>
-                  </thead>
-                  <tbody class="">
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                                src="./img/avatar/avatar-face-02.png" alt="User Name">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        ثبت فعالیت آمار جمعیتی
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
 
-                          هادی هاشمی
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td class="digitfont">1402-04-02</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a class="text-center" href="##">ویرایش</a></li>
-                            <li><a class="text-center" href="##">تایید</a></li>
-                            <li><a class="text-center" href="##">رد</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                                src="./img/avatar/avatar-face-02.png" alt="User Name">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        ثبت فعالیت آمار جمعیتی
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
+              <form action="" class="insert-form p-5 rounded">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد خانوار شهری">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد خانوار روستایی">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد خانوار باسرپرست مرد">
+                    </div>
+                  </div>
 
-                          هادی هاشمی
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td class="digitfont">1402-04-02</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a class="text-center" href="##">ویرایش</a></li>
-                            <li><a class="text-center" href="##">تایید</a></li>
-                            <li><a class="text-center" href="##">رد</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                                src="./img/avatar/avatar-face-02.png" alt="User Name">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        ثبت فعالیت آمار جمعیتی
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
 
-                          هادی هاشمی
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td class="digitfont">1402-04-02</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a class="text-center" href="##">ویرایش</a></li>
-                            <li><a class="text-center" href="##">تایید</a></li>
-                            <li><a class="text-center" href="##">رد</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                                src="./img/avatar/avatar-face-02.png" alt="User Name">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        ثبت فعالیت آمار جمعیتی
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control " placeholder="تعداد خانوار باسرپرست زن">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control" placeholder="تعداد کل خانوار">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد کل نفرات">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد خانوار سالمند شهری">
+                    </div>
+                  </div>
 
-                          هادی هاشمی
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td class="digitfont">1402-04-02</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a class="text-center" href="##">ویرایش</a></li>
-                            <li><a class="text-center" href="##">تایید</a></li>
-                            <li><a class="text-center" href="##">رد</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label class="users-table__checkbox">
-                          <input type="checkbox" class="check">
-                          <div class="categories-table-img">
-                            <picture>
-                              <source srcset="./img/avatar/avatar-face-03.webp" type="image/webp"><img
-                                src="./img/avatar/avatar-face-02.png" alt="User Name">
-                            </picture>
-                          </div>
-                        </label>
-                      </td>
-                      <td>
-                        ثبت فعالیت آمار جمعیتی
-                      </td>
-                      <td>
-                        <div class="pages-table-img">
 
-                          هادی هاشمی
-                        </div>
-                      </td>
-                      <td><span class="badge-pending">Pending</span></td>
-                      <td class="digitfont">1402-04-02</td>
-                      <td>
-                        <span class="p-relative">
-                          <button class="dropdown-btn transparent-btn" type="button" title="More info">
-                            <div class="sr-only">More info</div>
-                            <i data-feather="more-horizontal" aria-hidden="true"></i>
-                          </button>
-                          <ul class="users-item-dropdown dropdown">
-                            <li><a class="text-center" href="##">ویرایش</a></li>
-                            <li><a class="text-center" href="##">تایید</a></li>
-                            <li><a class="text-center" href="##">رد</a></li>
-                          </ul>
-                        </span>
-                      </td>
-                    </tr>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control " placeholder="تعداد خانوار سالمند روستایی">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control" placeholder="تعداد کل خانوار سالمند">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fas fa-pen"></i>
+                      </span>
+                      <input type="number" class="form-control" placeholder="تعداد نفرات سالمند شهری">
+                    </div>
+                  </div>
 
-                  </tbody>
-                </table>
-              </div> -->
 
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input type="number" class="form-control " placeholder="تعداد نفرات سالمند روستایی">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="input-group mb-2">
+                      <span class="input-group-text">
+                        <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input disabled type="text" class="form-control" placeholder="تعداد کل نفرات سالمند">
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <input type="submit" value="ارسال" class="btn btn-primary  w-100 f-800">
+                  </div>
+                </div>
+              </form>
             </div>
+
+
+
+
+
             <div class="col-lg-3">
               <article class="customers-wrapper">
                 <canvas id="customersChart" aria-label="Customers statistics" role="img"></canvas>
 
               </article>
-              <article class="white-block" id="oooooo">
+              <article class="white-block">
                 <div class="top-cat-title">
                   <h3>سریعترین ثبت ماه اخیر</h3>
                   <p>کل تعداد ثبت های هر ماه 9 سری آمار می باشد</p>

@@ -548,6 +548,32 @@ html {
   padding-left: 10px;
 }
 
+/******* Aded Class **************/
+
+.insert-form {
+  background: -webkit-linear-gradient(45deg, #56ab2f, #a8e063);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: -webkit-linear-gradient(45deg, rgb(86, 171, 47), rgb(168, 224, 99));
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.insert-form input[type="number"],
+input[type="text"] {
+  background: rgba(86, 171, 47, .7);
+}
+
+form .row .input-group {
+  padding: 15px 0;
+  font-size: .5rem !important;
+}
+
+/******** End Added Class *********************************************************/
 #signin-body {
   background-image: url("../img/categories/cropped-helpsavenature.jpg");
   background-color: gray;
